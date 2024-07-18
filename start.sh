@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Start socat to forward port 80 to 8080
 socat TCP-LISTEN:80,fork TCP:localhost:8080 &
